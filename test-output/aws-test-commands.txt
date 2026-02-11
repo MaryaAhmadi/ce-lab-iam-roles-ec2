@@ -1,0 +1,11 @@
+
+aws sts get-caller-identity
+{
+    "UserId": "AROAS6EGTBA2L7TKQ2U57:i-0f75c7fd2c3f4f7a9",
+    "Account": "202145728564",
+    "Arn": "arn:aws:sts::202145728564:assumed-role/ec2-s3-cloudwatch-role/i-0f75c7fd2c3f4f7a9"
+}
+
+
+
+

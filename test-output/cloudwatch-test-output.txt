@@ -1,0 +1,24 @@
+# CloudWatch Test Output
+
+aws sts get-caller-identity
+{
+    "UserId": "AROAS6EGTBA2L7TKQ2U57:i-0f75c7fd2c3f4f7a9",
+    "Account": "202145728564",
+    "Arn": "arn:aws:sts::202145728564:assumed-role/ec2-s3-cloudwatch-role/i-0f75c7fd2c3f4f7a9"
+}
+
+aws logs describe-log-groups
+{
+    "logGroups": [
+        {
+            "logGroupName": "/lab-m2-test",
+            "creationTime": 1707602340000,
+            "arn": "arn:aws:logs:us-east-1:202145728564:log-group:/lab-m2-test:*",
+            "storedBytes": 0
+        }
+    ]
+}
+
+Test log sent to /lab-m2-test log group from EC2 instance.
+Permission verified via CloudWatchAgentServerPolicy.
+

@@ -1,0 +1,9 @@
+
+
+aws s3 ls s3://maryam-ahmadi-bootcamp-inventory/
+                           PRE maryam-ahmadi-bootcamp-demo-2024/
+
+echo "lab test from EC2 role" > test.txt
+aws s3 cp test.txt s3://maryam-ahmadi-bootcamp-inventory/
+upload: ./test.txt to s3://maryam-ahmadi-bootcamp-inventory/test.txt
+

@@ -1,0 +1,1 @@
+lab test from EC2 role
